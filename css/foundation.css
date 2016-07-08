@@ -1553,7 +1553,8 @@ kbd {
       color: #ec5840; }
       .button.hollow.alert:hover, .button.hollow.alert:focus {
         border-color: #881f0e;
-        color: #881f0e; }
+        color: #881f0e;
+          align-content: center;}
   .button.disabled, .button[disabled] {
     opacity: 0.25;
     cursor: not-allowed; }
@@ -4194,3 +4195,11 @@ table.hover tr:nth-of-type(even):hover {
 .long-delay {
   -webkit-animation-delay: 700ms !important;
           animation-delay: 700ms !important; }
+
+.form {
+    border: solid #777 10px;
+    align-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}

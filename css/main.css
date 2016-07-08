@@ -6,3 +6,11 @@ header {
 footer {
     background-color: white;
 }
+
+.form {
+    border: solid #777 5px;
+}
+
+.btn {
+    align-content: center;
+}
