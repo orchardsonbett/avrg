@@ -1931,7 +1931,8 @@ select {
     .button-group .button:last-child {
       margin-right: 0; }
   .button-group.tiny .button {
-    font-size: 0.6rem; }
+    font-size: 0.6rem;
+     align-content: center;}
   .button-group.small .button {
     font-size: 0.75rem; }
   .button-group.large .button {
