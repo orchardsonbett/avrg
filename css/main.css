@@ -1,69 +1,76 @@
-
 header {
     background-color: white;
 }
-
 footer {
     background-color: white;
 }
-
 .form {
     border: solid #777 5px;
     margin: 90px;
 }
-
 .btn {
     align-content: center;
 }
+.info {}
 
-.info {
-
-}
 /*  SECTIONS  */
+
 .section {
-	clear: both;
-	padding: 0px;
-	margin: 0px;
+    clear: both;
+    padding: 0px;
+    margin: 0px;
 }
 
 /*  COLUMN SETUP  */
-.col {
-	display: block;
-	float:left;
-	margin: 1% 0 1% 1.6%;border: 2px solid #777
-}
-.col:first-child { margin-left: 0; }
 
+.col {
+    display: block;
+    float: left;
+    margin: 1% 0 1% 1.6%;
+    border: 2px solid #777
+}
+.col:first-child {
+    margin-left: 0;
+}
 
 /*  GROUPING  */
+
 .group:before,
 .group:after {
-	content:"";
-	display:table;
+    content: "";
+    display: table;
 }
 .group:after {
-	clear:both;
+    clear: both;
 }
 .group {
-    zoom:1; /* For IE 6/7 */
+    zoom: 1;
+    /* For IE 6/7 */
 }
 
 /*  GRID OF THREE  */
+
 .span_3_of_3 {
-	width: 100%;
+    width: 100%;
 }
 .span_2_of_3 {
-	width: 66.1%;
+    width: 66.1%;
 }
 .span_1_of_3 {
-	width: 32.2%;
+    width: 32.2%;
 }
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
 @media only screen and (max-width: 480px) {
-	.col { margin: 1% 0 1% 0%;}
-	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+    .col {
+        margin: 1% 0 1% 0%;
+    }
+    .span_3_of_3,
+    .span_2_of_3,
+    .span_1_of_3 {
+        width: 100%;
+    }
 }
 .flo {
     text-align: center;
@@ -71,20 +78,19 @@ footer {
     padding-right: 300px;
     border: solid #777 4px;
     margin: 100px;
-
 }
-
 .exp {
     border: solid #777 4px;
     padding: 20px;
-    margin: 50px
-    margin: 50px
+    margin: 50px margin: 50px
 }
-
 .nav {
     float: right;
 }
-
-.button {
-
+.button {}
+header {
+    background-image: url(../img/background.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
 }
