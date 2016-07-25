@@ -4202,5 +4202,6 @@ table.hover tr:nth-of-type(even):hover {
     align-content: center;
     padding-left: 20px;
     padding-right: 20px;
+    background-image: url(../img/background.jpg);
 
 }
